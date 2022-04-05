@@ -6,3 +6,6 @@ The first step in creating a function that determines the distribution of channe
 Following that, we built the histogram function, which depicts the distribution of channeltype data.
 
 After specifying the function name using def histogram function, we used the plt.hist function to visualise the histogram frequency distribution (). It's also a good idea to identify the axis and give the histogram a name.
+
+We imported the top 1000 records into a different csv file called "100 records.csv" using the python script below.
+df1.to_csv('1000_records.csv')
